@@ -4,8 +4,8 @@ from random import randint
 M = int(input("Введите количество строк "))
 N = int(input("Введите количество столбцов "))
 A = [[randint(10, 50) for i in range(M)] for j in range(N)]
-for i in range(M):
-    print(A[i])
+for j in range(N):
+    print(A[j])
 a = 0
 b = 0
 for i in range(M):
